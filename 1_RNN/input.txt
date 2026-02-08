@@ -1,0 +1,44 @@
+Hello world! This is a simple text file for training a character-level RNN.
+The RNN will learn to predict the next character in a sequence.
+It starts with random weights and gradually learns patterns in the text.
+
+For example, it learns that 'h' is often followed by 'e' in words like "the" and "hello".
+It learns that spaces typically follow punctuation marks.
+It even learns to open and close brackets correctly!
+
+This is just sample data. You can replace this with any text:
+- Shakespeare plays
+- Linux kernel source code
+- Wikipedia articles
+- Your own writing
+- Song lyrics
+- Recipe books
+
+The model will learn whatever patterns exist in the data you give it.
+With enough training, it can generate new text that looks similar to the training data.
+
+Isn't that amazing? A simple mathematical formula can learn the structure of language!
+The RNN maintains a hidden state that acts as a memory of what it has seen so far.
+This memory helps it make better predictions about what comes next.
+
+Let's add some structured text so it can learn patterns:
+
+[[Article 1]]: Introduction to RNNs
+[[Article 2]]: How LSTMs work
+[[Article 3]]: Applications in NLP
+
+URLs are also interesting:
+http://www.example.com/path/to/page
+https://github.com/karpathy/char-rnn
+
+Some code-like syntax:
+def hello_world():
+    print("Hello, World!")
+    return True
+
+And finally, some dialogue:
+"Hello," said Alice.
+"Hi there!" replied Bob.
+"How are you doing today?"
+
+The more diverse the training data, the more interesting the results!
